@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074ddcaf-162c-4e9c-96f8-8f7875fbab82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/model/bilanCompetence.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/competenceSkeelz.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/coursCompetence.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/entreprise.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/etatCours.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/relationCours.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/model/skeelz.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/model/personne.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/personne.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\java\workspace\workspaceSkeelz\skeelz-web\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\java\workspace-skeelz\skeelz-web\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -105,6 +114,7 @@
       <workItem from="1575370348718" duration="3207000" />
       <workItem from="1575377084347" duration="13018000" />
       <workItem from="1575449509452" duration="1132000" />
+      <workItem from="1575470091861" duration="3261000" />
     </task>
     <servers />
   </component>
@@ -116,10 +126,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="73" key="#TSLint/0.0.1536.824@0.0.1536.824" timestamp="1575371022438" />
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1575370944719">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575472973112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575472973112" />
+    <state x="718" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1575472944265">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575370944719" />
+    <state x="718" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575472944265" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575472276988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575472276988" />
     <state width="1882" height="344" key="GridCell.Tab.0.bottom" timestamp="1575388160907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -7,13 +7,15 @@ import { StagiaireComponent } from './stagiaire/stagiaire.component';
 import { StagiaireFormComponent } from './stagiaire-form/stagiaire-form.component';
 import { HomeComponent } from './home/home.component';
 import {FormsModule} from '@angular/forms';
+import { ChapitreComponent } from './chapitre/chapitre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StagiaireComponent,
     StagiaireFormComponent,
-    HomeComponent
+    HomeComponent,
+    ChapitreComponent
   ],
   imports: [
     BrowserModule,
