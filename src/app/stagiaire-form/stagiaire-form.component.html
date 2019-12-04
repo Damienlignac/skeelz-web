@@ -1,0 +1,78 @@
+<div class="card mt-3">
+  <div class="card-header bg-info text-white">
+    <h3>Edition du stagiaire</h3>
+  </div>
+</div>
+<div class="card-body">
+  <div class="form-group">
+    <label for="nom">Id:</label> <input
+    type="text" class="form-control" id="id"
+    name="id" [(ngModel)]="stagiaire.id">
+  </div>
+  <div class="form-group">
+    <label for="prenom">version :</label> <input
+    type="text" class="form-control" id="version"
+    name="version" [(ngModel)]="stagiaire.version">
+  </div>
+  <div class="form-group">
+    <label for="nom">Nom:</label> <input
+    type="text" class="form-control" id="nom"
+    name="nom" [(ngModel)]="stagiaire.nom">
+  </div>
+  <div class="form-group">
+    <label for="prenom">Prénom:</label> <input
+    type="text" class="form-control" id="prenom"
+    name="prenom" [(ngModel)]="stagiaire.prenom">
+  </div>
+  <div class="form-group">
+    <label for="email">Courriel:</label> <input
+    type="text" class="form-control" id="email"
+    name="email" [(ngModel)]="stagiaire.email">
+  </div>
+  <div class="form-group">
+    <label for="telephone">Téléphone:</label> <input
+    type="text" class="form-control" id="telephone"
+    name="telephone" [(ngModel)]="stagiaire.telephone">
+  </div>
+  <div class="form-group">
+    <label for="dtNaissance">Date de naissance:</label> <input
+    type="date" class="form-control" id="dtNaissance"
+    name="dtNaissance" [ngModel]="stagiaire.dtNaissance | date:'yyyy-MM-dd'" (ngModelChange)="stagiaire.dtNaissance =$event">
+  </div>
+  <select>
+    <option>choisi gros</option>
+    <option *ngFor="let niven of [niveauEtude.valueOf()]" [(ngModel)]="niveauEtude"></option>
+  </select>
+
+  <div class="form-group">
+    <label for="rue">Rue:</label> <input
+    type="text" class="form-control" id="rue"
+    name="adresse.rue" [(ngModel)]="stagiaire.adresse.rue">
+
+  </div>
+  <div class="form-group">
+    <label for="complement">Complément:</label> <input
+    type="text" class="form-control" id="complement"
+    name="adresse.complement" [(ngModel)]="stagiaire.adresse.complement">
+  </div>
+  <div class="form-group">
+    <label for="codePostal">Code postal:</label> <input
+    type="text" class="form-control" id="codePostal"
+    name="adresse.codePostal" [(ngModel)]="stagiaire.adresse.codePostal">
+  </div>
+  <div class="form-group">
+    <label for="ville">Ville:</label> <input
+    type="text" class="form-control" id="ville"
+    name="adresse.ville" [(ngModel)]="stagiaire.adresse.ville">
+  </div>
+<div class="card-footer">
+  <div class="btn-group btn-group-lg float-right">
+    <button type="submit" class="btn btn-success" (click)="save(stagiaire)">
+      <i class="fa fa-check"></i>
+    </button>
+    <a  class="btn btn-warning" (click)="cancel()"> <i
+      class="fa fa-undo"></i>
+    </a>
+  </div>
+</div>
+</div>
