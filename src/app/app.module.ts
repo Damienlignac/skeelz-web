@@ -7,6 +7,7 @@ import { StagiaireComponent } from './stagiaire/stagiaire.component';
 import { StagiaireFormComponent } from './stagiaire-form/stagiaire-form.component';
 import { HomeComponent } from './home/home.component';
 import {FormsModule} from '@angular/forms';
+import { ListecoursComponent } from './listecours/listecours.component';
 import { ChapitreComponent } from './chapitre/chapitre.component';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ChapitreComponent } from './chapitre/chapitre.component';
     StagiaireFormComponent,
     HomeComponent,
     ChapitreComponent
+    ListecoursComponent
   ],
   imports: [
     BrowserModule,
